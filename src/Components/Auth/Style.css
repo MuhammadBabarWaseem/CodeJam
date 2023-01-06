@@ -1,0 +1,37 @@
+form {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Style the message displayed when the form is invalid */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
